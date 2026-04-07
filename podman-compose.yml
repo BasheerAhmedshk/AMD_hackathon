@@ -6,7 +6,7 @@ services:
     container_name: nadiaris_postgres
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: ahu123
+      POSTGRES_PASSWORD: 
       POSTGRES_DB: threat_audit
     ports:
       - "5432:5432"
