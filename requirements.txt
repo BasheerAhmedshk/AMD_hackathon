@@ -1,0 +1,16 @@
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+onnxruntime-gpu==1.24.4
+asyncpg
+redis==5.0.4
+structlog==24.1.0
+google-generativeai==0.5.2
+pydantic-settings==2.2.1
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+SQLAlchemy==2.0.29
+numpy
+transformers
+torch
